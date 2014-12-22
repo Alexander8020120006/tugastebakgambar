@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amek.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BantingActivity"
+            android:label="@string/title_activity_banting" >
+        </activity>
+        <activity
+            android:name=".BatuActivity"
+            android:label="@string/title_activity_batu" >
+        </activity>
+        <activity
+            android:name=".KadoActivity"
+            android:label="@string/title_activity_kado" >
+        </activity>
+        <activity
+            android:name=".KaosActivity"
+            android:label="@string/title_activity_kaos" >
+        </activity>
+        <activity
+            android:name=".JamActivity"
+            android:label="@string/title_activity_jam" >
+        </activity>
+        <activity
+            android:name=".LionActivity"
+            android:label="@string/title_activity_lion" >
+        </activity>
+        <activity
+            android:name=".MatiActivity"
+            android:label="@string/title_activity_mati" >
+        </activity>
+        <activity
+            android:name=".EsActivity"
+            android:label="@string/title_activity_es" >
+        </activity>
+        <activity
+            android:name=".KalungActivity"
+            android:label="@string/title_activity_kalung" >
+        </activity>
+        <activity
+            android:name=".BerhasilActivity"
+            android:label="@string/title_activity_berhasil" >
+        </activity>
+    </application>
+
+</manifest>
